@@ -8,15 +8,15 @@ public class Grades {
 		Scanner Sc = new Scanner(System.in);
 		System.out.println("Enter the value");
 
-		int a = Sc.nextInt();
+		int b = Sc.nextInt();
 		Sc.close();
 
-		if (a < 25) {
+		if (b < 25) {
 			System.out.println("The grade is f ");
-		} else if (a > 25 && a < 45) {
+		} else if (b > 25 && b < 45) {
 
 			System.out.println("E");
-		} else if (a > 45 && a < 50) {
+		} else if (b > 45 && b < 50) {
 
 			System.out.println("D");
 		} else {
